@@ -58,11 +58,14 @@ body {
 }
 
 .container {
-  width: 1160px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.list-container {
+  padding: 32px 16px;
 }
 .visually-hidden {
   position: absolute;
@@ -80,6 +83,7 @@ body {
 
 /* ============= Page Header styles ============= */
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-container {
   display: flex;
@@ -149,7 +153,7 @@ body {
   background-color: #2e2f42;
 }
 .hero-title {
-  max-width: 514px;
+  max-width: 496px;
   font-size: 56px;
   margin-left: auto;
   margin-right: auto;
@@ -191,6 +195,7 @@ body {
 }
 
 .benefits-list-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -222,14 +227,15 @@ body {
 }
 
 .team-list-item {
+  border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 }
-
-.list-container {
-  padding: 32px 16px;
+.team-list-container {
+  padding: 32px 0;
 }
 
 .team-list-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -258,10 +264,13 @@ body {
 
 .portfolio-list-item {
   width: calc((100% - 48) / 3);
-  padding-bottom: 32px;
 }
-
+.portfolio-list-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .portfolio-list-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -278,7 +287,7 @@ body {
   background-color: #2e2f42;
 }
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-text {
